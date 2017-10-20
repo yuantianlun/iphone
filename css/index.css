@@ -1,0 +1,548 @@
+/*
+* @Author: Administrator
+* @Date:   2017-10-16 10:23:34
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-10-21 00:17:18
+*/
+
+/* 头部开始 */
+
+@import url('base.css');
+
+header{
+	width: 100%;
+	height: 40px;
+	background: #444;
+}
+header main{
+	height: 100%;
+	margin: 0 auto;
+}
+header a{
+	float: right;
+	line-height: 40px;
+	color: #a8a8a8;
+}
+/* 头部结束 */
+/* 导航开始 */
+
+nav{
+	width: 100%;
+	height: 44px;
+	background: #333333;
+}
+nav ul{
+	height: 100%;
+	margin:0 auto;
+	display: flex;
+	justify-content: space-between;
+	line-height: 44px;
+	
+}
+nav  ul li{
+	float: left;
+
+}
+nav ul li a{
+	color:  #a6a6a6;
+}
+/* 导航结束 */
+/* 图片开始 */
+.iphone8{
+	display: block;
+	width: 100%;
+	background: #f9f0eb;
+	text-align: center;
+	color: #111;
+	margin-bottom: 12px;
+}
+.iPhone8Img{
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.iphone8 h1{
+	font-size: 48px;
+	text-align: center;
+	
+}
+.iphone8 h1 .iconfont{
+	font-size: 48px;
+	text-align: center;
+	
+}
+.iphone8 h4{
+	font-size: 22px;
+	text-align: center;
+	
+}
+.iphone8 h5{
+	font-size: 16px;
+	color: #cc1b1b;
+	text-align: center;
+}
+
+.iphone8:nth-of-type(2){
+	background: #fafafa;
+}
+.iphone8:nth-of-type(3){
+	background: #fafafa;
+}
+.iPhoneXImg{
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.WATCHImg{
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.iphonelist{
+	width: 100%;
+	height: auto;	
+}
+.iphonelist1{
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 12px;
+	flex-wrap: wrap;	
+}
+
+.iphonelist1 li{
+	height: 598px;
+	text-align: center;
+	border: 6px solid #fff;
+	background: #fafafa;
+	overflow: hidden;
+}
+.sigeimg3{
+	margin: 0 auto;
+}
+.iphonelist1 li h4{
+	margin-top: 60px;
+	font-size: 48px;
+	color: #111;
+}
+.iphonelist1 li h5{
+	font-size: 24px;
+	color: #333;
+}
+.iphonelist1 div{
+	margin: 0 auto;
+	margin-top: 40px;	
+}
+/*底部开始*/
+.foot1{
+	margin-top: 14px;
+	width: 100%;
+	height: 300px;
+	background: #f2f2f2;
+	display: flex;
+	
+}
+.foot1:after{
+	content: "";
+	display: block;
+	width: 0;
+	height: 0;
+	clear: both;
+}
+.footcenter{
+	
+	height: 300px;
+	
+	margin: 0 auto;
+	
+	
+}
+.footlist1{
+	width: 100%;
+	height: 264px;
+	float: left;
+	
+	padding: 28px 0;
+	
+	
+}
+.footlist1 li h5{
+	font-size: 12px;
+	color: #222;
+	
+}
+.footlist1 li h6{
+	font-size: 8px;
+	color: #555;
+}
+.footlist1 li {
+	width: 20%;
+	line-height: 20px;
+	float:left;
+}
+.footlist1 li h6:hover{
+	text-decoration: underline;
+}
+
+
+.foot2{
+	width: 100%;
+	height: 277px;
+	margin-top: 96px;
+	
+}
+.hang{
+	height: calc(100%/7);
+	border-bottom: 1px solid #d6d6d6;
+	width: 100%;
+	padding: 0 17px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #f2f2f2;
+}
+
+.hang a h5{
+	font-size: 12px;
+	color: #222;
+}
+.foot1bottom{
+	width: 100%;
+	height: 154px;
+	padding-top: 50px;
+}
+.boot1{
+	width: 100%;
+	height: calc(100%/3);
+	
+}
+
+/*最下边*/
+
+.foot1bottom{
+	width: 100%;
+	height: 200px;
+	background: #f2f2f2;
+	
+}
+.boot1{
+    width: 100%;
+	height: 30px;
+	font-size: 1em;
+	color: #888;
+	display: flex;
+	align-items: center;
+}
+.boot1 a h5{
+	color: #5a94d3;
+	
+}
+.boot1h61{
+	margin-right: 30px;
+}
+
+.ys{
+	display: block;
+	width: auto;
+	height: 60%;
+	border-right: 1px solid #888;
+	text-align: center;
+	color: #333;
+}
+.boot1 .ys h5{
+    color: #555;
+    font-size: 1em;
+}
+.ys:last-child{
+    border: 0;
+}
+
+.boot1 .lasterfoot h5{
+    color: #888;
+}
+.boot1:first-child{
+    border-bottom: 1px solid #999;
+}
+
+.footimg{
+    width: 45px;
+    height: 18px;
+    margin-left: 350px;
+}
+.footct{
+    height: 100%;
+    margin: 0 auto;
+}
+.footxiaoyu{
+    width: 100%;
+    height: 160px;
+    background: #f2f2f2;
+}
+.boot2{
+	width: 100%;
+	height: calc(100%/5);
+	padding: 0 17px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	font-size: 12px;
+	justify-content: flex-start;
+	color: #888;
+}
+.boot2 .footimg{
+	margin: 0;
+}
+.boot2 a{
+	color: #3ca8e0;
+}
+.boot2 .ys{
+	color: #888;
+}
+.boot2 .ys:first-child{
+	width: auto;
+	padding-right: 15px;
+}
+.boot2 .lasterfoot{
+	color: #888;
+}
+
+.footxiaoyu{
+	display: none;
+}
+
+/* 大于1024px */
+@media screen and (min-width: 1024px){
+	header main{
+		width: 976px;
+	}
+	nav ul{
+		width: 976px;
+	}
+	.nav1{
+		display: block;
+	}
+	.nav2{
+		display: none;
+	}
+	.iphone8{
+	    padding-top: 70px;
+	}
+	.iPhone8Img{
+		width: 549px;
+		height: 388px;
+		background: url('../img/large.jpg') no-repeat center center;
+		
+	}
+	.iPhoneXImg{
+		margin-top: 190px;
+		width: 909px;
+		height: 194px;
+		background: url('../img/2l.jpg') no-repeat center center;
+	}
+	
+	.WATCHImg{
+		width: 767px;
+		height: 341px;
+        background: url('../img/32l.jpg') no-repeat center center;
+   	}
+	.sigeimg1{
+		width: 516px;
+		height: 369px;
+		background-size: 516px 369px;
+		background: url('../img/41l.jpg') no-repeat center center
+	}
+	.sigeimg2{
+		width: 553px;
+		height: 392px;
+		background-size: 553px 392px;
+		background: url('../img/42l.jpg') no-repeat center center;
+	}
+	.sigeimg3{
+		width: 100%;
+		height: 430px;
+		background-size: 826px 430px;
+		background: url('../img/43l.jpg') no-repeat center center;
+		background-position-y:center;
+		background-position-x: center;	
+	}
+	.sigeimg4{
+		width: 499px;
+		height: 292px;
+		background-size: 499px 292px;
+		background: url('../img/macos_high_sierra_large.jpg') no-repeat center center;
+	}
+	.iphonelist1 li{
+	    width: 50%;	
+    }
+	.footcenter{
+	    width: 976px;	
+    }
+	.footlist1{
+		padding-right: 0px;
+	}
+	
+	.foot1{
+		display: block;	
+	}
+	
+	.foot2{
+		display: none;	
+	}
+	
+	.footct{
+	    padding: 0 22px;
+    }
+}
+/* 小于1024px */
+@media screen and (max-width: 1024px){
+	header main{
+		padding-right: 22px;
+	}
+	nav ul{
+		padding: 0 22px;
+	}
+	.nav1{
+		display: block;
+	}
+	.nav2{
+		display: none;
+	}
+	.iPhone8Img{
+	
+	    width: 549px;
+	    height: 388px;
+	    background: url('../img/medium.jpg') no-repeat center center;
+	
+	}
+	.iphone8{
+	
+	    padding-top: 40px;
+	
+	}
+	.iPhoneXImg{
+		margin-top: 170px;
+		width: 704px;
+		height: 148px;
+		background: url('../img/2m.jpg') no-repeat center center;
+	}
+	
+	.WATCHImg{
+		width: 762px;
+		height: 339px;
+		background: url('../img/32m.jpg') no-repeat center center;
+	}
+	.sigeimg1{
+		width: 362px;
+		height: 261px;
+		background-size: 362px 261px;
+		background: url('../img/41m.jpg') no-repeat center center;
+	}
+	.sigeimg2{
+		width: 381px;
+		height: 270px;
+		background-size: 381px 270px;
+		background: url('../img/42m.jpg') no-repeat center center;
+	}
+	.sigeimg3{
+		width: 440px;
+		height: 255px;
+		background-size: 441px 255px;
+		background: url('../img/43m.jpg') no-repeat center center;
+	
+	}
+	.sigeimg4{
+		width: 332px;
+		height: 194px;
+		background-size: 332px 194px;
+		background: url('../img/macos_high_sierra_medium.jpg') no-repeat center center;
+	}
+	
+    .iphonelist1 li{
+	    width: 50%;
+    }
+    .footcenter{
+	    padding:0 22px;
+	}
+	.foot1{
+		display: block;	
+	}
+	
+	.foot2{
+		display: none;	
+	}
+}
+
+@media screen and (max-width: 768px){
+	.nav1{
+		display: none;
+	}
+	.nav2{
+		display: block;
+	}
+	.iPhone8Img{
+	    width: 267px;
+	    height: 357px;
+	    background: url('../img/small.jpg') no-repeat center center;
+	
+	}
+	.iphone8{
+	    padding-top: 10px;
+	
+	}
+    .iPhoneXImg{
+		margin-top: 40px;
+		width: 167px;
+		height: 333px;
+		background: url('../img/2s.jpg') no-repeat center center;
+	}
+	
+	.WATCHImg{
+		width: 302px;
+		height: 338px;
+		background: url('../img/32s.jpg') no-repeat center center;
+	}
+	.sigeimg1{
+		width: 322px;
+		height: 232px;
+		background-size: 322px 232px;
+		background: url('../img/41s.jpg') no-repeat center center;
+	}
+	.sigeimg2{
+		width: 339px;
+		height: 240px;
+		background-size: 339px 240px;
+		background: url('../img/42s.jpg') no-repeat center center;
+	}
+	.sigeimg3{
+		width: 420px;
+		height: 301px;
+		background-size: 420px 301px;
+		background: url('../img/43s.jpg') no-repeat center center;
+	}
+	.sigeimg4{
+		width: 348px;
+		height: 203px;
+		background-size: 348px 203px;
+        background: url('../img/macos_high_sierra_small.jpg') no-repeat center center;
+    }
+	.iphonelist li{
+	    width: 100%;
+		
+	}
+	.foot1{
+		display: none;
+		
+	}
+	
+	.foot2{
+		display: block;
+		
+	}
+	
+	.footxiaoyu{
+	    display: block;
+    }
+	.foot1bottom{
+		display: none;
+		
+	}
+	
+}
